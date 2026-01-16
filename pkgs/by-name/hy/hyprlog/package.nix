@@ -6,16 +6,16 @@
 
 rustPlatform.buildRustPackage (finalAttrs: {
   pname = "hyprlog";
-  version = "0.1.0";
+  version = "0.1.1";
 
   src = fetchFromGitHub {
     owner = "gusjengis";
     repo = "hyprlog";
     tag = "v${finalAttrs.version}";
-    hash = "sha256-nHTUa7UpdlsO4TUrQfGo82KlgXkG3RxC9iyfiDOmOyQ=";
+    hash = "sha256-/vw9sQJhzDU7cL2ht1X0mfRR0vKhE8MkovRsvCb13jQ=";
   };
 
-  cargoHash = "sha256-+YHTBBwc638GoGg/owYyw0cPvhb9sswBvh5Mkjma9jo=";
+  cargoHash = "sha256-m5u5Cds0figigkpqTJHnjJikp3pwlOjPe6hOE5jq53M=";
 
   meta = {
     description = "Hyprland focus/activity logger";
